@@ -1,0 +1,274 @@
+.LilTjayBiographyHeader {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+    float: left;
+    margin-right: 300px;
+    margin-top: 20px;
+    color: white;
+}
+
+.header {
+    background-color: #3e2984;
+    height: 65px;
+    width: relative;
+    text-align: left;
+}
+
+.logo {
+    vertical-align: middle;
+    float: left;
+    margin-right: 10px;
+}
+
+.active a {
+    color: white;
+    background-color: #3e2984;
+}
+
+nav, nav ul, nav li {
+	list-style        : none;
+	margin            : 0;
+	padding           : 0;
+    border            : 0;
+    position          : center;
+}
+nav:after { 
+    height            : 0; 
+    clear             : both;
+    display           : block;
+	visibility        : hidden;
+}
+nav ul {
+	float             : left;
+}
+nav li {
+	width             : 220px;
+	float             : left;
+	margin            : 0 3px 0 0;
+}
+nav a {
+    text-align        : center;
+    text-decoration   : none;
+    display           : block; 
+    font-size         : 15px;
+	color             : White;
+    background-color  : black;
+	border            : 1px solid rgb(0, 0, 0);
+	padding           : 5px 10px;
+    margin            : 0 0 3px;
+    margin-top        : 15px;
+    transition        : background-color 0.4s;
+}
+nav a:visited {
+	color             : white;
+}
+nav a:hover {
+	color             : white;
+	background-color  : #3e2984; 
+}
+nav a:active {
+    color: black;
+}
+
+.navi1 {
+    margin-right: 30px;
+}
+
+.navi2 {
+    margin-right: 30px;
+}
+
+.navi3 {
+    margin-right: 30px;
+}
+
+.navi4 {
+    margin-right: 30px;
+}
+
+.background {
+    background-attachment: fixed;
+}
+
+.links {
+    margin-right: 20px;
+    margin-top: 20px;
+    float: right;
+}
+
+.links:hover {
+    background-color: white;
+    opacity: 30%;
+    border-radius: 8px;
+    transition: 0.4s;
+}
+
+
+
+
+/* Body */
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.body {
+
+}
+
+.text {
+    background-color: black;
+    color: white;
+    font-family: 'Palanquin', sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 500%;
+    color: #FFF;
+    letter-spacing: 30px;
+    font-family: 'Lalezar', cursive;
+}
+
+h2 {
+    letter-spacing: 10px;
+}
+
+p {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.parallax {
+    top: 0px;
+    background: url("Bilder/background.jpg")
+      repeat fixed 100%;
+}
+
+.parallax2 {
+    top: 0px;
+    background: url("Bilder/tjayabgehoben.jpg")
+      repeat fixed 100%;
+    color: darkgrey;
+}
+
+.parallax-inner {
+    padding-top: 13%;
+    padding-bottom: 13%;
+}
+
+.parallax-inner::before {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 5px;
+    background: #FFF;
+    position: absolute;
+    margin-left: 470px;
+    top: 38.2%;
+}
+
+.parallax-inner::after {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 5px;
+    background: #FFF;
+    position: relative;
+    margin-right: 500px;
+    margin-left: 120px;
+    margin-top: -3.5%;
+    float: right;
+}
+
+.parallax2-inner {
+    padding-top: 13%;
+    padding-bottom: 13%;
+}
+
+.parallax2-inner::before {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 5px;
+    background: #FFF;
+    position: absolute;
+    margin-left: 180px;
+    top: 38.2%;
+}
+
+.parallax2-inner::after {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 5px;
+    background: #FFF;
+    position: relative;
+    margin-right: 200px;
+    margin-top: -3.5%;
+    float: right;
+}
+
+table {
+    margin-left: 300px;
+}
+
+table th {
+    float: left;
+}
+
+table {
+    float: ;
+}
+
+.namen {
+    position: left;
+}
+
+.fresh {
+    text-align: left;
+}
+
+
+
+
+/* Footer */
+
+
+
+
+.footer {
+    background-color: #3e2984;
+    height: 300px;
+}
+
+.instalogo {
+    margin-top: 115px;
+    margin-left: 890px;
+}
+
+.copyright {
+    text-align: center;
+    margin: 0 0 0 0;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+
+}
+
+video {
+    margin: 20px;
+}
+
